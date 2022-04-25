@@ -8,12 +8,12 @@ const navToggle = document.querySelector(".nav-toggle");
 const links = document.querySelector(".links");
 
 navToggle.addEventListener("click", function () {
-  // the long way:
+  // the long way -
   //   if (links.classList.contains("show-links")) {
   //     links.classList.remove("show-links");
   //   } else {
   //     links.classList.add("show-links");
   //   }
-  // the short way:
+  // the short way -
   links.classList.toggle("show-links");
 });
